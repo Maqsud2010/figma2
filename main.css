@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 70vh;
+  background: #1C1E53;
+}
+header .container {
+  width: 1600px;
+  margin: 0 auto;
+}
+header .container .header_block {
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container button {
+  background-color: transparent;
+  color: #F4F6FC;
+  border-radius: 60px;
+  border: 2px solid #2a2e9b;
+  width: 185px;
+  height: 60px;
+  cursor: pointer;
+}
+header .container .menu_block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header .container ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+header .container ul li {
+  font-size: 16px;
+}
+header .container ul a {
+  text-decoration: none;
+  color: #BBBBCB;
+}
+header .container .text1 {
+  margin-top: 100px;
+}
+header .container .text1 h1 {
+  color: white;
+  font-size: 54px;
+}
+header .container .text1 p {
+  color: #BBBBCB;
+  font-size: 16px;
+}
+header .container .text1 button {
+  background-color: #FCD980;
+  color: #1B1C2B;
+  font-size: 18px;
+}
+header .container .header_text {
+  display: flex;
+  gap: 300px;
+}
+header .container .header_text .text1_img {
+  padding: 100px;
+}/*# sourceMappingURL=main.css.map */
